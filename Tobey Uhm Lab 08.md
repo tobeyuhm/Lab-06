@@ -1,4 +1,4 @@
-# Lab 07 - JOBY Comparable-Company Policy and P/E Limitation
+# Lab 08 - JOBY Comparable-Company Valuation Comparison
 
 ## Target, date, and peer policy
 
