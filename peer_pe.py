@@ -10,17 +10,17 @@ from statistics import median
 # ================================ INPUTS =================================
 # Use None when an input is unavailable.  Diluted EPS must be positive for P/E.
 TARGET = {
-    "name": "Asbury Automotive",
-    "ticker": "ABG",
-    "price": 243.03,
-    "diluted_eps": 21.50,
+    "name": "Joby Aviation",
+    "ticker": "JOBY",
+    "price": None,
+    "diluted_eps": -1.13,
 }
 
 # Add one dictionary per peer.  A peer with a duplicate ticker/name is kept only
 # once, and a peer matching the target ticker/name is excluded.
 PEERS = [
-    {"name": "AutoNation", "ticker": "AN", "price": 169.84, "diluted_eps": 16.92},
-    {"name": "Group 1 Automotive", "ticker": "GPI", "price": 421.48, "diluted_eps": 36.81},
+    {"name": "Archer Aviation", "ticker": "ACHR", "price": None, "diluted_eps": -0.99},
+    {"name": "Eve Air Mobility", "ticker": "EVEX", "price": None, "diluted_eps": -0.70},
 ]
 # ===========================================================================
 
@@ -154,5 +154,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
