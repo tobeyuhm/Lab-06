@@ -12,15 +12,15 @@ from statistics import median
 TARGET = {
     "name": "Joby Aviation",
     "ticker": "JOBY",
-    "price": None,
+    "price": 6.69,  # Sept. 1, 2026 regular-session close; Stock Analysis historical table.
     "diluted_eps": -1.13,
 }
 
 # Add one dictionary per peer.  A peer with a duplicate ticker/name is kept only
 # once, and a peer matching the target ticker/name is excluded.
 PEERS = [
-    {"name": "Archer Aviation", "ticker": "ACHR", "price": None, "diluted_eps": -0.99},
-    {"name": "Eve Air Mobility", "ticker": "EVEX", "price": None, "diluted_eps": -0.70},
+    {"name": "Archer Aviation", "ticker": "ACHR", "price": 5.56, "diluted_eps": -0.99},
+    {"name": "Eve Air Mobility", "ticker": "EVEX", "price": 2.20, "diluted_eps": -0.70},
 ]
 # ===========================================================================
 
@@ -154,4 +154,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
